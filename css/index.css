@@ -166,6 +166,12 @@ p {
   flex-direction: column;
   justify-content: center;
   margin-top: 1rem;
+  height: 10rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.95;
+  background-color: aliceblue;
 }
 .navbar h1 {
   font-size: 4rem;
@@ -191,6 +197,9 @@ p {
     font-size: 3rem;
     text-align: center;
   }
+  .navbar nav {
+    flex-wrap: nowrap;
+  }
 }
 footer {
   color: #22283B;
@@ -201,6 +210,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  margin-top: 11rem;
 }
 .home .intro h2 {
   padding: 15px;
