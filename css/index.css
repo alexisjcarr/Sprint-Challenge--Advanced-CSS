@@ -266,6 +266,54 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.home .sign-up-form {
+  width: 100%;
+  margin: 0 5rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.home .sign-up-form input[type="text"] {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  border: 2px solid #ccc;
+  outline: none;
+  font-size: 15px;
+}
+.home .sign-up-form #message {
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  background-color: #f8f8f8;
+  outline: none;
+  resize: none;
+  font-size: 15px;
+}
+.home .sign-up-form #question {
+  width: 200px;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  border: 2px solid #ccc;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  color: gray;
+}
+.home .sign-up-form input[type="submit"] {
+  border-radius: 10px;
+  background-color: #eeffe6;
+  border: 2px solid #ccc;
+  padding: 7px 30px;
+  font-size: 15px;
+}
+.home .sign-up-form input[type="submit"]:hover {
+  background-color: #d6e6cf;
+  border: 2px solid #ccc;
+  cursor: pointer;
+}
 @media (max-width: 800px) {
   .home .intro h2 {
     padding: 15px;
