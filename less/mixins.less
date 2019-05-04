@@ -1,1 +1,15 @@
 // Mixins Here
+
+// Breakpoints
+@phone: ~'(max-width: 500px)';
+@tablet: ~'(max-width: 800px)';
+
+// Button
+.btn-mixin(@bkgclr, @fntsz, @txtclr) {
+    text-align: center;
+    padding: 1.0rem 0.5rem;
+    border-radius: 0.6rem;
+    background-color: @bkgclr;
+    font-size: @fntsz;
+    color: @txtclr;
+}
